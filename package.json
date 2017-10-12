@@ -1,0 +1,30 @@
+{
+  "name": "sqlite3-examples",
+  "version": "1.0.0",
+  "description": "example code using sqlite3",
+  "main": "index.js",
+  "scripts": {
+      "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katothompson/sqlite3-examples.git"
+  },
+  "keywords": [
+    "sqlite3",
+    "node.js",
+    "express"
+  ],
+  "author": "Kato Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katothompson/sqlite3-examples/issues"
+  },
+  "homepage": "https://github.com/katothompson/sqlite3-examples#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
