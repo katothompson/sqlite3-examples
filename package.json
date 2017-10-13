@@ -4,7 +4,7 @@
   "description": "example code using sqlite3",
   "main": "index.js",
   "scripts": {
-      "test": "ava"
+    "test": "ava \"*.test.js\""
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,13 @@
   },
   "homepage": "https://github.com/katothompson/sqlite3-examples#readme",
   "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
     "sqlite3": "^3.1.13"
   },
   "devDependencies": {
-    "ava": "^0.22.0"
+    "ava": "^0.22.0",
+    "ava-http": "^0.2.1",
+    "supertest": "^3.0.0"
   }
 }
